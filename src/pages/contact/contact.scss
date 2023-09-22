@@ -1,0 +1,63 @@
+.contact-page {
+    .wrapper {
+        display: flex;
+        gap: 30px;
+
+        .contact-info {
+            flex: 1;
+
+            h2 {
+                margin-bottom: 40px;
+            }
+        }
+
+        .contact-form {
+            flex: 2;
+
+            h2 {
+                margin-bottom: 40px;
+
+                .blue {
+                    color: blue;
+                }
+            }
+
+            .card {
+                flex-direction: column;
+                align-items: flex-start;
+
+                form {
+                    width: 100%;
+
+                    .form-group {
+                        width: 100%;
+
+                        input,
+                        textarea {
+                            width: 100%;
+                            padding: 20px;
+                            margin-bottom: 10px;
+                            background-color: rgba(255, 255, 255, 0.05);
+                            border: none;
+                            outline: none;
+                            border-radius: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:1200px) {
+    .contact-page .wrapper .contact-form {
+        flex: 1;
+    }
+}
+
+@media(max-width:991px) {
+    .contact-page .wrapper {
+        flex-direction: column;
+    }
+}

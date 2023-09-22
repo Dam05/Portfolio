@@ -1,0 +1,56 @@
+.contactCard {
+    flex: 1;
+    position: relative;
+
+
+
+    .wrapper {
+        width: 100%;
+
+        h3 {
+            font-size: 48px;
+            margin-bottom: 20px;
+
+            @media(max-width:991px) {
+                font-size: 36px;
+
+            }
+
+            @media(max-width:480px) {
+                font-size: 28px;
+            }
+        }
+
+        span {
+            font-size: 48px;
+            color: blue;
+
+            @media(max-width:991px) {
+                font-size: 36px;
+
+            }
+
+            @media(max-width:480px) {
+                font-size: 28px;
+            }
+        }
+
+        .textbox {
+            position: absolute;
+            bottom: 10px;
+        }
+
+        .icon2 {
+            position: absolute;
+            top: 0;
+            max-width: 40px;
+            max-height: 100px;
+
+            img {
+                width: 100%;
+                max-width: 40px;
+            }
+        }
+    }
+
+}

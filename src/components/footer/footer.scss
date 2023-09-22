@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+
+    .menu {
+        margin-top: 20px;
+        display: flex;
+        width: 30%;
+        justify-content: space-evenly;
+
+    }
+}
+
+@media(max-width:991px) {
+    .footer .menu {
+        width: 50%;
+    }
+}
+
+@media(max-width:767px) {
+    .footer .menu {
+        width: 70%;
+    }
+}
+
+@media(max-width:400px) {
+    .footer .menu {
+        width: 100%;
+    }
+}
